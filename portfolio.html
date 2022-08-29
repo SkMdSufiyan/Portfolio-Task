@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comaptible" content="IE-edg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Css counter-reset example</title>
+        
+        
+        <!-- Source is bootstrap-5 (bootstrap CSS)-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!-- Source is bootstrap-5 (bootstrap JS)-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+
+        <!-- Personalised CSS -->
+        <style>
+            .sub-headings{
+                text-align: center;
+                color:white;
+                font-weight:700;
+            }
+            div#about-description{
+                margin:50px 30px;
+                background-color: rgba(40, 87, 58, 0.979);
+                width:auto;
+                height:auto;
+            }
+            #description{
+                color:white;
+                margin:5px 20px;
+            }
+            .sub-title{
+                color:darkblue;
+                font-weight: 800;
+                margin:5px 20px;
+            }
+
+            #skills-description{
+                margin:50px 30px;
+                background-color: rgba(40, 87, 58, 0.979);
+                width:auto;
+                height:auto;
+                align-items: center;
+                text-align: center;
+            }
+            
+            #skill-items .logos{
+                display:inline-block;
+                width:150px;
+                height:40px;
+                background-color: white;
+                border-radius: 5px;
+                margin:10px 10px;
+                font-weight: 600;
+                padding:5px 5px;
+                text-align: start;
+            }
+            
+            #skill-items .logos img{
+                margin-right:10px;
+            }
+
+            #project-description{
+                margin:50px 30px;
+                background-color: rgba(40, 87, 58, 0.979);
+                width:auto;
+                height:200px;
+            }
+            #contact-description{
+                margin:50px 30px;
+                background-color: rgba(40, 87, 58, 0.979);
+                width:auto;
+                height:auto;
+            }
+            .contact-span{
+                display:inline-block;
+                margin:5px 0px;
+                margin-left:30px;
+                margin-right:0px;
+                text-align: center;
+            }
+            
+
+            #mobile-number{
+                margin-left:18px;
+            }
+
+            #email-address{
+                margin-left:30px;
+            }
+            .email-mobile-address{
+                color:darkblue;
+                margin-left:30px;
+            }
+
+            #resume-link{
+                display:inline-block;
+                margin-left:15px;
+                color:darkblue;
+            }
+            #resume-link a{
+                color:darkblue;
+            }
+
+            
+
+
+        </style>
+        <title>Sufiyan Portfolio</title>
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+                <a class="navbar-brand" href="#">Shaik Mahmmadsufiyan</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#abtme">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link"  href="#contactme">Contact</a></li>
+                </ul>
+            </div>
+            </nav>
+
+        
+       
+            
+            <div class="description-blocks" id="about-description">
+                <h5 class="sub-headings"><span id="abtme">About Me</span></h5>
+                <p class="sub-title">A bit about me</p>
+                <p id="description">I'm a newly trained Full-Stack Developer, able to work on both front-end and back-end development processes and able to design, develop, and maintain fully-fledged and functioning platforms with databases or servers. Currently, I'm focused on back-end development.
+                </p>
+            </div>
+
+        <div class="description-blocks" id="skills-description">
+            <h5 class="sub-headings"><span id="skills">Skills</span></h5>
+            <div id="skill-items">
+
+                <div class="logos"><img src="https://w1.pngwing.com/pngs/136/126/png-transparent-javascript-logo-angularjs-nodejs-computer-programming-web-development-computer-software-jquery-yellow.png" alt="JavaScript" width="30px" height="30px">JavaScript</div>
+
+                    
+                <div class="logos"><img src="https://cdn.icon-icons.com/icons2/1488/PNG/512/5352-html5_102567.png" alt="HTML" width="30px" height="30px">HTML</div>
+
+                <div class="logos"><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt="CSS" width="30px" height="30px">CSS</div>
+
+                <br>
+                <div class="logos"><img src="https://www.clipartmax.com/png/middle/351-3515666_c-language-global-or-external-variables-with-examples-c-programming-logo.png" alt="C Language" width="30px" height="30px">C Language</div>
+
+                <div class="logos"><img src="https://i.pinimg.com/originals/8f/23/98/8f2398dcd19c6a1776f6b55c83073c67.png" alt="Python" width="30px" height="30px">Python</div>
+
+                <div class="logos"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png" alt="MATLAB" width="30px" height="30px">MATLAB</div>
+            </div>
+        </div>
+
+
+        <div class="description-blocks" id="project-description">
+            <h5 class="sub-headings"><span id="projects">Projects</span></h5>
+            <p class="sub-title">What I Built</p>
+            
+        </div>
+    
+
+            
+        <div class="description-blocks" id="contact-description">
+            <h5 class="sub-headings"><span id="contactme">Contact</span></h5>
+            <p class="sub-title">Reach Me At</p>
+
+            <span class="contact-span" id="email">Email:</span>
+            <span class="contact-span email-mobile-address" id="email-address">mdsufiyan9205@gmail.com</span>
+            <br>
+            <span class="contact-span" id="mobile">Mobile:</span>
+            <span class="contact-span email-mobile-address" id="mobile-number">+91 8008518446</span>
+            <br>
+            <span class="contact-span" id="resume">Resume:</span>
+            <span class="contact-span email-mobile-address" id="resume-link"><a href="https://drive.google.com/file/d/1boMYb2po1ksFWkNfPu8uB6re4yNOKKvt/view?usp=sharing" target="_blank">Resume_Link</a></span>
+
+            
+        </div>
+
+            </body>
